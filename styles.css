@@ -1,0 +1,110 @@
+body {
+  background-color: #198ad6;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+th {
+  text-align: left;
+}
+
+table {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.balance {
+  opacity: 0.4;
+  margin-left: 5px;
+  display: inline;
+}
+
+td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+td:nth-of-type(1n) {
+  width: 250px;
+}
+
+td:nth-of-type(2n) {
+  width: 200px;
+}
+
+td:nth-of-type(3n) {
+  width: 150px;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.main {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 5px;
+  max-width: 790px;
+  margin-top: 40px;
+  text-overflow: wrap;
+}
+
+a {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.header {
+  font-size: 106px;
+  font-weight: bold;
+}
+
+.logo {
+  margin: 32px;
+  width: 400px;
+}
+
+.entitled {
+  font-size: 16px;
+}
+
+#claimText {
+  color: rgb(85, 255, 255);
+  font-size: 63px;
+  margin-bottom: 32px;
+}
+
+#deposits {
+  display: none;
+}
+
+.parent {
+  display: flex;
+}
+
+button {
+  width: 80px;
+  padding: 2px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  box-shadow: 0px 6px 0px 1px #010f1d;
+}
+
+button:hover {
+  box-shadow: 0px 3px 0px 1px #010f1d;
+}
